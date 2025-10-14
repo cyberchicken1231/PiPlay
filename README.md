@@ -13,6 +13,8 @@ PiPlay is a Raspberry Pi Zero 2W-based Game Boy, with full RetroPie capabilities
 ~1 spool of solder
 ~1 3d printer
 ~1 spool of filament
+# Setup the Pi
+I will post this section when I get to build the project, most likely in a couple of weeks.
 # To build:
 The Gerber files are in the ZIP file piplay_gbr.zip. Load this ZIP into either:
 ~A PCB manufacturer
