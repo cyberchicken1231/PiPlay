@@ -7,7 +7,6 @@ PiPlay is a Raspberry Pi Zero 2W-based Game Boy, with full RetroPie capabilities
 ~1 DPI or HDMI 3.5-inch screen
 ~1 copy of the PCB
 ~1 Li-ion battery with the correct header for the charger
-~1 copy of the case
 ~Tools for assembly: 
 ~1 soldering iron
 ~1 spool of solder
@@ -19,14 +18,13 @@ I will post this section when I get to build the project, most likely in a coupl
 The Gerber files are in the ZIP file piplay_gbr.zip. Load this ZIP into either:
 ~A PCB manufacturer
 ~Your PCB manufacturing setup, if you have one.
-While you wait for that, purchase the parts listed in the Bill of Materials.
+While you wait for that, you can go ahead and purchase the parts listed in the Bill of Materials.
 Once you have all of the parts, assemble as follows:
 1. Solder the buttons to the PCB. Note that the L and R buttons go on the back of the board(L and R are the ones on the same line. L is under the Pi, and R is under nothing, but parallel to L. These will be the shoulder buttons, but on the back instead of up top.
 2. Solder the battery charger to the board. Solder the USB-A port to the charger.
 3. Solder the Pi to the board, with the Micro-SD card in the slot already. BE SURE NOT TO PLUG THE PI IN BACKWARDS!!!!!
 4. Attach the screen to the board. Run the HDMI cable to the Pi. You may have to run it along the outer edge, but you shouldn't have to.
 5. Plug in and attach the battery to the board. BE SURE NOT TO PLUG IT IN BACKWARDS!!!!!
-6. Mount into the case, attach case halves. Be sure that you can see the charging port.
 7. Plug in. If all went well, it should turn on. You can now either use it or turn on the screensaver and let it charge.
 # Use
 Load up ROMS of your choice, following the guide that RetroPie has put on their docs. Play games. 
