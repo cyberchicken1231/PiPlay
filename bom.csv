@@ -1,0 +1,30 @@
+Designator,Qty,Description,Footprint,Manufacturer,Manufacturer_PN,Notes
+J1,1,JST PH-Series 2-pin connector (battery),JST PH2.0 2-pin vertical,JST,SM02B-PASS-TB,Battery JST-PH 2-pin mate for PowerBoost
+J2,1,"Micro HDMI receptacle, right-angle, 19-pin",Micro HDMI Type D SMT,Amphenol/Molex,HDMI-MICRO-R-A,Mini-HDMI input; verify orientation
+H1,1,2x20 2.54mm female header (Pi Zero stack header),2x20 female header 2.54mm,Samtec/Generic,2X20-FEMALE-2.54,Mount for Pi header
+SW1,1,Tactile switch 6x6mm (D-pad Up),6x6mm tact switch,KoreaKing/Generic,6x6mm-Tact,D-pad up
+SW2,1,Tactile switch 6x6mm (D-pad Down),6x6mm tact switch,KoreaKing/Generic,6x6mm-Tact,D-pad down
+SW3,1,Tactile switch 6x6mm (D-pad Left),6x6mm tact switch,KoreaKing/Generic,6x6mm-Tact,D-pad left
+SW4,1,Tactile switch 6x6mm (D-pad Right),6x6mm tact switch,KoreaKing/Generic,6x6mm-Tact,D-pad right
+SW5,1,Tactile switch 6x6mm (A Button),6x6mm tact switch,KoreaKing/Generic,6x6mm-Tact,A button
+SW6,1,Tactile switch 6x6mm (B Button),6x6mm tact switch,KoreaKing/Generic,6x6mm-Tact,B button
+SW7,1,Tactile switch 6x6mm (X Button),6x6mm tact switch,KoreaKing/Generic,6x6mm-Tact,X button
+SW8,1,Tactile switch 6x6mm (Y Button),6x6mm tact switch,KoreaKing/Generic,6x6mm-Tact,Y button
+SW9,1,Tactile switch 6x6mm (Start),6x6mm tact switch,KoreaKing/Generic,6x6mm-Tact,Start
+SW10,1,Tactile switch 6x6mm (Select),6x6mm tact switch,KoreaKing/Generic,6x6mm-Tact,Select
+R1,1,Resistor 10kΩ,0603 resistor,Yageo,RC0603JR-0710KL,Pull-up for SW1
+R2,1,Resistor 10kΩ,0603 resistor,Yageo,RC0603JR-0710KL,Pull-up for SW2
+R3,1,Resistor 10kΩ,0603 resistor,Yageo,RC0603JR-0710KL,Pull-up for SW3
+R4,1,Resistor 10kΩ,0603 resistor,Yageo,RC0603JR-0710KL,Pull-up for SW4
+R5,1,Resistor 10kΩ,0603 resistor,Yageo,RC0603JR-0710KL,Pull-up for SW5
+R6,1,Resistor 10kΩ,0603 resistor,Yageo,RC0603JR-0710KL,Pull-up for SW6
+R7,1,Resistor 10kΩ,0603 resistor,Yageo,RC0603JR-0710KL,Pull-up for SW7
+R8,1,Resistor 10kΩ,0603 resistor,Yageo,RC0603JR-0710KL,Pull-up for SW8
+C1,1,"Capacitor 10uF, 0805",0805 capacitor,Murata,GRM21BR61C106KE15L,Bulk decoupling
+C2,2,"Capacitor 0.1uF, 0603",0603 capacitor,Murata,GRM188R71C104KA01D,Decoupling
+LED1,1,"LED green, 0603",0603 LED,Kingbright,APTD3216,Power/Status LED
+SW_PWR,1,Slide switch SPDT 2 positions,Slide switch,C&K/Generic,SS-22D00,Power enable switch for EN pin
+TP1,1,Battery voltage testpad,Testpoint pad,Keystone,,Battery voltage testpad
+MNT1,4,Mounting hole (for M2.5 screw),3.2mm hole,Generic,,Board mounting holes
+PAD1,1,2-pin debug header (I2C/SDA),2-pin 2.54mm male,Samtec/Generic,2.54-2P,Optional breakout
+PAD2,1,4-pin header (UART/USB),4-pin 2.54mm male,Samtec/Generic,2.54-4P,Optional serial console
